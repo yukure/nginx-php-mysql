@@ -1,6 +1,2 @@
 FROM nginx:alpine
-RUN apk add -U --no-cache \
-    vim \
-    unzip \
-    zip \
-    git
+RUN apk update --no-cache
