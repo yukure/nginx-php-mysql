@@ -16,7 +16,7 @@ services:
     depends_on:
       - db
     volumes:
-      - ./app:/var/www/html
+      - ./php/app:/var/www/html
   db:
     container_name: db
     image: mysql:5.7
